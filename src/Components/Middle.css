@@ -1,0 +1,150 @@
+.img1 {
+    position: relative;
+    display: flex;
+    left: 200px;
+    /* top: 628px; */
+    width: 692px;
+    height: 220px;
+    margin-bottom: 10px;
+    z-index: 500;
+    
+}
+
+.card {
+    display: flex;
+    left: 200px;
+    /* top: 628px; */
+    width: 692px;
+    height: 220px;
+    padding: 5px;
+    border: 1px solid rgb(211, 209, 209);
+
+}
+
+.heading {
+    /* margin-top: 20px; */
+    /* margin-bottom: 0px; */
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title {
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
+    font-family: IBM Plex Sans;
+    height: 40px;
+    font-weight: 600;
+    width: 600px;
+    left: 220px;
+    top: 903px;
+    font-size: 22px;
+    border-radius: nullpx;
+
+}
+
+.subtitle {
+    font-family: IBM Plex Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.testimonial {
+    height: 48px;
+    width: 48px;
+    left: 210px;
+    top: 1508px;
+    border-radius: 24px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.views {
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    margin-left: 605px;
+    /* top: 2041px; */
+
+}
+
+.btn{
+    box-sizing: border-box;
+    border: 0.7px dashed #A9AEB8;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    height: 38px;
+width: 652px;
+left: 220px;
+top: 1956px;
+border-radius: 8px;
+color: #E56135;
+}
+@media screen and (max-width: 400px) {
+    .img1 {
+        position: relative;
+        width: 360px;
+        height: 120px;
+        left: 0px;
+        /* top: 326px; */
+        margin-bottom: 10px;
+        z-index: 500;
+    }
+
+    .card {
+        /* position: absolute; */
+        display: flex;
+        width: 360px;
+        height: 120px;
+        left: 0px;
+        /* top: 326px; */
+        z-index: 500;
+    }
+
+    .heading {
+        height: 17px;
+        width: 91px;
+        left: 65px;
+        top: 578px;
+        font-size: 14px;
+
+    }
+
+    .title {
+        height: 63px;
+        width: 280px;
+        left: 16px;
+        font-size: 16px;
+        /* margin-top: 10px; */
+        /* margin-bottom: 10px; */
+        border-radius: undefinedpx;
+
+    }
+
+    .subtitle {
+        height: 18px;
+        width: 324px;
+        left: 16px;
+        /* margin-top: 7px; */
+        font-size: 14px;
+
+
+    }
+
+    .flex {
+        display: flex;
+        /* margin-top: 30px; */
+    }
+
+   
+}
