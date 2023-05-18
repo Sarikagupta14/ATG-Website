@@ -1,0 +1,65 @@
+.date--row{
+  display: flex;
+  
+  /* justify-content: space-between;
+  align-items: center; */
+}
+.location{
+  margin-left: 150px;
+}
+.location1{
+  margin-left: 50px;
+}
+.img2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+/* .visible1{
+  margin-left: 480px;
+} */
+.card1{
+  margin-top: 15px;
+  margin-left: 200px;
+  border-radius: 8px;
+  width: 692px;
+  height: 270px;
+  padding: 5px;
+  border: 1px solid rgb(211, 209, 209);
+}
+.btn1{
+  color: #02B875;
+  box-sizing: border-box;
+  border: 0.7px dashed #A9AEB8;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  height: 38px;
+width: 652px;
+left: 220px;
+top: 1956px;
+border-radius: 8px;
+}
+.testimonial1{
+  height: 48px;
+  width: 48px;
+  left: 210px;
+  /* top: 1508px; */
+  margin-top: 10px;
+  border-radius: 24px;
+}
+@media screen and (max-width: 400px) {
+  .img1 {
+      position: relative;
+      width: 360px;
+      height: 120px;
+      left: 0px;
+      /* top: 326px; */
+      margin-bottom: 10px;
+      z-index: 500;
+  }
+
+  .card1{
+    display: none;
+  }
+}
